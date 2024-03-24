@@ -1,0 +1,23 @@
+*{
+    margin: o;
+    padding: 20px 10px;
+    margin-bottom: 3px;
+}
+#display {
+    border: 2px solid black;
+    padding: 20px 10px;
+    margin-bottom: 3px;
+}
+.calculator{
+    width: 429px;
+    padding: 10px;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 3px;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
